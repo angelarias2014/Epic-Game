@@ -1,5 +1,10 @@
 {
   "name": "hardhat-project",
+  "author": "Keet Sugathadasa",
+  "email": "email",
+  "license": "MIT",
+  "version": "0.0.1",
+  "private": true,
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.3",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
@@ -41,4 +46,5 @@
     "run-contract": "npx hardhat run scripts/run.ts",
     "deploy-contract": "npx hardhat run scripts/deploy.ts"
   }
+
 }
